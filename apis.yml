@@ -1,8 +1,14 @@
 aid: equilibre
 name: EquiLibre
-description: 'EquiLibre is a company surfaced as a portfolio company of creandum and added to the API
-  Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'EquiLibre Technologies is a Prague-based frontier AI trading research lab building
+  self-learning reinforcement-learning agents that trade equities autonomously across the S&P 500
+  and Nasdaq. Founded by ex-DeepMind researchers Martin Schmid, Matej Moravcik, and Rudolf Kadlec —
+  the trio behind the DeepStack poker AI — the company applies the same game-solving and continual-learning
+  techniques to financial markets, with its agents trading billions of dollars daily in partnership with
+  quantitative firm Tower Research Capital. In 2026 EquiLibre raised a Series A led by Creandum at a
+  reported ~EUR 438M / $500M+ valuation. It operates as a proprietary trading and research lab and does
+  not currently publish a public developer API, SDKs, or developer documentation; this profile tracks the
+  company in the API Evangelist network.'
 url: https://raw.githubusercontent.com/api-evangelist/equilibre/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +16,30 @@ x-backed-by:
 - creandum
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://equilibre.ai/images/favicon.png
 tags:
 - Company
-- Ai
+- Artificial Intelligence
+- Machine Learning
+- Reinforcement Learning
+- Algorithmic Trading
+- Financial Services
+- Quantitative Finance
+- Research Lab
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +47,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/equilibre-domain-security.yml
 - type: Website
   url: https://equilibre.ai/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/equilibre-technologies
+- type: Careers
+  url: https://equilibre.ai/hiring
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
