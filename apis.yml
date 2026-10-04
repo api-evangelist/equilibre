@@ -45,10 +45,10 @@ image: https://equilibre.ai/images/favicon.png
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Reinforcement Learning
 - Algorithmic Trading
-- Financial-Services
+- Financial Services
 - Quantitative Finance
 - Research Lab
 tags_raw:
@@ -60,6 +60,8 @@ tags_raw:
 - Financial Services
 - Quantitative Finance
 - Research Lab
+- Machine-Learning
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
